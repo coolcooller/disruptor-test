@@ -44,7 +44,7 @@ public class LongEventMain2 {
         LongEventProducer producer = new LongEventProducer(ringBuffer); 
         //LongEventProducerWithTranslator producer = new LongEventProducerWithTranslator(ringBuffer);
         ByteBuffer byteBuffer = ByteBuffer.allocate(8);
-        for(long l = 0; l<100; l++){
+        for(long l = 0; l<1000000000; l++){
             byteBuffer.putLong(0, l);
             producer.onData(byteBuffer);
             //Thread.sleep(1000);
