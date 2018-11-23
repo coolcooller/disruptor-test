@@ -1,4 +1,4 @@
-package com.lzy.disruptor_test;
+package com.cool.disruptor_test;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

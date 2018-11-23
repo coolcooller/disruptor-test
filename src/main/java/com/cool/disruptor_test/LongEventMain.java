@@ -1,4 +1,4 @@
-package com.lzy.disruptor_test;
+package com.cool.disruptor_test;
 
 import java.nio.ByteBuffer;
 import java.util.concurrent.Executor;
